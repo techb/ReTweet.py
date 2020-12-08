@@ -52,3 +52,4 @@ docs/_build/
 # Custom
 creds.json
 .vscode/node_modules/
+node_modules/
