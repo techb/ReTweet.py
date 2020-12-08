@@ -38,6 +38,7 @@ class MyStreamListener(tweepy.StreamListener):
     def on_error(self, status):
         print("Error detected")
 
+
 # do the things and wait forever
 tweets_listener = MyStreamListener(api)
 stream = tweepy.Stream(api.auth, tweets_listener)
